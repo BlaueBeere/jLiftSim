@@ -3,6 +3,7 @@
  * and open the template in the editor.
  */
 package jliftsim;
+import javax.swing.*;
 
 /**
  *
@@ -14,6 +15,7 @@ public class JLiftSim {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        JFrame mainwindow = new MainWindow();
+        mainwindow.setVisible(true);
     }
 }
